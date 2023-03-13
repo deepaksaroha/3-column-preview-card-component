@@ -74,9 +74,15 @@ h1, h2, h3, h4, h5, h6, p, body{
     padding: 1.2em 2.5em;
     background-color: white;
     border-radius: 30px;
-    border: none;
     width: fit-content;
     font-size: 16px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.btns:hover{
+    cursor: pointer;
+    color: white;
 }
 
 .main-artcl{
@@ -88,6 +94,18 @@ h1, h2, h3, h4, h5, h6, p, body{
 .icons{
     height: 50px;
     width: fit-content;
+}
+
+.btn1:hover{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.btn2:hover{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.btn3:hover{
+    background-color: hsl(179, 100%, 13%);
 }
 
 .paras{
